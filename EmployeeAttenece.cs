@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace ConsoleApp5
+namespace Empwage
 {
     class EmployeeAttendence
     {
