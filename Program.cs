@@ -11,10 +11,10 @@ namespace Empwage_Interface
     /// 
     /// </summary>
         public static void employee()
-        { ////Attendece function using Random Variable
-            const int present = 1;
+        { 
+            const int present = 1; 
             Random rnd = new Random();
-            int num = rnd.Next(0,2);
+            int num = rnd.Next(0,2);////Attendece function using Random Variable for Employee
             if (num == present)
             {
                 Console.WriteLine("Employee is Present");
@@ -27,13 +27,13 @@ namespace Empwage_Interface
             Dailywage(num);
             
         }/// <summary>
-        /// /cart time & Daily Employee
-        /// </summary>
+        
+        
         /// <param name="num"></param>
-        private static void Dailywage(int num)
+        private static void Dailywage(int num) /// /Part time & Daily Employee wage Calculation
         {
-            int empwage;
-            int partempwage;
+            int empwage;/// Local Varibles
+            int partempwage; /// Local Variables
             int hr = 8;
             if(num == 1)
             {
@@ -43,7 +43,7 @@ namespace Empwage_Interface
             }
             else
             {
-                Console.WriteLine("No wage");
+                Console.WriteLine("No wage"); 
             }
             if (num == 1)
             {
